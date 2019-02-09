@@ -1,0 +1,12 @@
+extends layout.pug
+
+block content
+	h1 Contrôle des LED
+	form
+		input#LEDbtn(
+			type='button'
+			value='Allumer'
+			)
+
+append scripts
+	script(src='/javascripts/controle.js')
